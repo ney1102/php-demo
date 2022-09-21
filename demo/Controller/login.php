@@ -10,6 +10,7 @@ $databaseName = 'user';
 // khởi tạo kết nối
 $connect = mysqli_connect($hostName, $userName, $passWord, $databaseName);
 //Kiểm tra kết nối
+// Dev change this cmt!
 if (!$connect) {
     exit('Kết nối không thành công!');
 }
